@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-Zero2W-red)
+![AI](https://img.shields.io/badge/AI-Enabled-green)
+![IoT](https://img.shields.io/badge/IoT-System-orange)
 # Swa-Stick — AI Assistive Navigation System
 
 AI-enabled smart assistive navigation system designed to improve mobility, safety, and independence for visually impaired individuals using embedded systems, computer vision, IoT, and intelligent feedback mechanisms.
@@ -11,7 +15,16 @@ Swa-Stick combines obstacle detection, GPS navigation, voice assistance, OCR-bas
 The project aims to provide an affordable and intelligent mobility aid capable of real-time environmental awareness and navigation assistance.
 
 ---
+## SDG Mapping
 
+![SDG Mapping](images/sdg-mapping.png)
+
+---
+
+## System Architecture
+
+![Block Diagram](images/block-diagram.png)
+---
 ## Key Features
 
 - Real-time obstacle detection
