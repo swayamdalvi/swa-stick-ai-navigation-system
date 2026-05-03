@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="images/banner.png" width="100%">
+</p>
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-Zero2W-red)
 ![AI](https://img.shields.io/badge/AI-Enabled-green)
@@ -8,6 +11,27 @@ AI-enabled smart assistive navigation system designed to improve mobility, safet
 
 ---
 
+## Why This Project Matters
+
+According to WHO statistics, millions of visually impaired individuals face daily mobility and navigation challenges. Swa-Stick aims to bridge accessibility gaps using affordable embedded AI technology.
+
+---
+
+## Table of Contents
+
+- Overview
+- Features
+- Hardware
+- Software
+- Installation
+- Usage
+- Architecture
+- SDG Mapping
+- Future Scope
+- Authors
+
+---
+
 ## Overview
 
 Swa-Stick combines obstacle detection, GPS navigation, voice assistance, OCR-based text recognition, and haptic feedback into a compact embedded solution powered by Raspberry Pi.
@@ -15,16 +39,7 @@ Swa-Stick combines obstacle detection, GPS navigation, voice assistance, OCR-bas
 The project aims to provide an affordable and intelligent mobility aid capable of real-time environmental awareness and navigation assistance.
 
 ---
-## SDG Mapping
 
-![SDG Mapping](images/sdg-mapping.png)
-
----
-
-## System Architecture
-
-![Block Diagram](images/block-diagram.png)
----
 ## Key Features
 
 - Real-time obstacle detection
@@ -59,6 +74,72 @@ The project aims to provide an affordable and intelligent mobility aid capable o
 
 ---
 
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/swa-stick.git
+cd swa-stick
+```
+
+### Create Virtual Environment
+
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+### Run Main System
+
+Starts the complete Swa-Stick assistive system.
+
+```bash
+python3 system/main.py
+```
+
+---
+
+### Run AI Assistant
+
+Starts the AI chatbot and vision assistant module.
+
+```bash
+python3 ai/ai_assistant.py
+```
+
+---
+
+### Run GPS Module
+
+Starts real-time GPS tracking and location detection.
+
+```bash
+python3 gps/gps_reader.py
+```
+
+---
+
+### Run Ultrasonic Obstacle Detection
+
+Starts obstacle detection using ultrasonic sensors.
+
+```bash
+python3 sensors/ultrasonic.py
+```
+
+---
+
 ## System Architecture
 
 The system continuously captures environmental data using ultrasonic sensors, camera modules, GPS, and voice inputs.
@@ -68,6 +149,8 @@ A Raspberry Pi processes the collected information locally and provides:
 - obstacle alerts,
 - object recognition,
 - and haptic feedback.
+
+![Block Diagram](images/block-diagram.png)
 
 ---
 
@@ -89,6 +172,12 @@ This project contributes toward:
 - SDG 9 — Industry, Innovation and Infrastructure
 - SDG 10 — Reduced Inequalities
 - SDG 11 — Sustainable Cities and Communities
+
+---
+
+## SDG Mapping
+
+![SDG Mapping](images/sdg-mapping.png)
 
 ---
 
@@ -122,3 +211,17 @@ This repository includes:
 
 Department of Electronics & Telecommunication Engineering  
 Don Bosco Institute of Technology, Mumbai
+
+---
+
+## Contributions
+
+Contributions, suggestions, and improvements are welcome.
+
+---
+
+## Contact
+
+- LinkedIn: [Swayam Dalvi](https://www.linkedin.com/in/swayam-dalvi-223483260/)
+- GitHub: [@swayamdalvi](https://github.com/swayamdalvi)
+- Email: swayamdalvi.dbit@gmail.com
