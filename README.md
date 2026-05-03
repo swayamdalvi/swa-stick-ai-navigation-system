@@ -22,6 +22,13 @@ Swa-Stick is an AI-enabled smart assistive navigation system designed to improve
 ## System Architecture
 The system continuously collects environmental data using sensors and camera modules. A Raspberry Pi processes the information and provides audio or vibration-based feedback for safe navigation.
 
+## Future Improvements
+
+* Advanced computer vision integration
+* Mobile application connectivity
+* Cloud-based monitoring
+* Enhanced AI object detection
+
 ## Repository Structure
 
 ```text
@@ -30,9 +37,3 @@ software/  → Source code and AI modules
 images/    → Setup images and architecture diagrams
 docs/      → Reports, presentations, and IEEE paper
 
-##Future Improvements
-
-* Advanced computer vision integration
-* Mobile application connectivity
-* Cloud-based monitoring
-* Enhanced AI object detection
