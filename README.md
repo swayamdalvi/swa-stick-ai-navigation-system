@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/banner.png" width="100%">
+</p>
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-Zero2W-red)
 ![AI](https://img.shields.io/badge/AI-Enabled-green)
