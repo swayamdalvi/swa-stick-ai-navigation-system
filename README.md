@@ -1,10 +1,14 @@
 <p align="center">
   <img src="images/banner.png" width="100%">
 </p>
+
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-Zero2W-red)
 ![AI](https://img.shields.io/badge/AI-Enabled-green)
 ![IoT](https://img.shields.io/badge/IoT-System-orange)
+
+
 # Swa-Stick — AI Assistive Navigation System
 
 AI-enabled smart assistive navigation system designed to improve mobility, safety, and independence for visually impaired individuals using embedded systems, computer vision, IoT, and intelligent feedback mechanisms.
